@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+
+    
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: brown;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+    background-color: burlywood;
+    padding: 15px;
+}
+.gal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.container .box .pic{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .pic img{
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+.gal .more{
+    margin: 40px 0px 40px 0px;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+}
+.gal .more a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: cadetblue;
+
+}
+.gal .more a:hover{
+    color: wheat;
+    
+}

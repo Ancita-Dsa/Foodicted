@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Lunch</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:greenyellow;
+    
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar      a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.navbar  a:hover{
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+.gal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+.container .box{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.container .box .pic{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+ 
+}
+.container .box .pic img{
+    margin-left: 10%;
+    padding-bottom: 20px;
+    width: 80%;
+  
+    
+}
+.pic h3{
+   margin-left: 2%;
+   color: crimson;
+   background-color: bisque;
+   padding: 10px;
+   position: absolute;
+   bottom: 16%;
+   
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+             <img src="../logo foodicted.png " class="logo">
+            <a href="../recipes.html"><span> BACK</span></a>
+        </div>
+        <div class="gal">
+        <div class="box">
+            <div class="pic">
+                <a  target="_blank" href="https://www.vegrecipesofindia.com/paneer-butter-masala/">
+                <img src="l1.jpg" width="250" height="400" >
+             </a>
+             <h3>Paneer Butter Masala</h3>
+            </div>
+
+            <div class="pic">
+                <a  target="_blank" href="https://www.vegrecipesofindia.com/dal-makhani-restaurant-style-recipe/">
+                <img src="l2.jpg" width="250" height="400" >
+            </a>
+            <h3>Dal makhani</h3>
+            </div>
+
+            <div class="pic">
+                <a target="_blank" href="https://www.vegrecipesofindia.com/vegetable-pulao-recipe-veg-pulao/">
+                <img src="l4.jpg"width="250" height="400" >
+            </a>
+            <h3>Vegetable Pulao</h3>
+            </div>
+            <div class="pic">
+                <a target="_blank" href="https://www.vegrecipesofindia.com/veg-fried-rice-recipe/">
+                <img src="l5.jpg"width="250" height="400" >
+            </a>
+            <h3>Fried Rice</h3>
+            </div>
+            <div class="pic">
+                <a target="_blank" href="https://www.vegrecipesofindia.com/shahi-paneer/">
+                <img src="l3.jpg"width="250" height="400" >
+            </a>
+            <h3>Shahi paneer</h3>
+            
+        </div>
+ 
+       
+       
+    </div>
+            
+    </div>
+    
+</body>
+</html>
